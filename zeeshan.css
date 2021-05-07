@@ -1,0 +1,192 @@
+/*css reset*/
+*{
+     margin: 0;
+     padding: 0;
+}
+/* css variable */
+:root{
+    --navbar height: 59px;
+}
+/*nivigation bar */
+#navbar{
+       display: flex;
+       align-items: center;
+}
+/*nivigation  bar: logo and image*/
+#logo{
+       margin: 34px 45px;
+}
+#logo img{
+       margin: 34px 45px;
+}
+/*nivigation  bar :list styling*/
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    }
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{ 
+content: "";
+position: absolute;
+background: url('../anu.jpg') no-repeat center center/cover;
+height: 642px;
+top:0px;
+left:0px;
+width: 100%;
+z-index: -1;
+opacity:0.89;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+/*services section*/
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+ #services.box p{
+    font-family: 'Bree Serif', serif;
+ }
+ #client-section{
+     height: 344px;
+
+ }
+ 
+
+ 
+ #clients{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .client-items{
+     padding: 34px;
+ }
+ #clietns img{
+   height: 124px;
+}
+/*contcat section*/
+
+#contcat{
+    position: relative;
+}
+#contcat::before{
+    content:"" ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(contact.jpg) no-repeat center center/cover;
+}
+#contcat-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    
+}
+
+#contcat-box input,
+#contcat-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+}
+#contcat-box form{
+    width: 40%;
+}
+#contcat-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+/*utility class*/
+.h-primary{
+    font-size: 3.8rem;
+    padding: 6px;
+    font-family: 'Bree Serif', serif;
+}
+.h-secondary{
+    font-size: 3.8rem;
+    padding: 6px;
+    font-family: 'Bree Serif', serif;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
