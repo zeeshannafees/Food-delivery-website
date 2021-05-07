@@ -8,16 +8,17 @@ Operating System : Windows/Linux
 Web Technologies : Html,Css,Javascript
 
 #Features 
-Supports Restaurant and Customer login and signup.
 
-User can enter and edit details.
+>Supports Restaurant and Customer login and signup.
 
-User can place orders from multiple restaurants.
+>User can enter and edit details.
 
-Support search functionality from user side.
+>User can place orders from multiple restaurants.
 
-A restaurant can update their menu and add new items to their menu.
+>Support search functionality from user side.
 
-Both user and restaurant can check their history logs.
+>A restaurant can update their menu and add new items to their menu.
 
-Pretty darn good UI.
+>Both user and restaurant can check their history logs.
+
+>Pretty darn good UI.
