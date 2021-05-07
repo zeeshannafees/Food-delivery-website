@@ -8,7 +8,6 @@ Operating System : Windows/Linux
 Web Technologies : Html,Css,Javascript
 
 #Features 
-
 >Supports Restaurant and Customer login and signup.
 >User can enter and edit details.
 >User can place orders from multiple restaurants.
