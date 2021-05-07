@@ -7,7 +7,7 @@ Programming languages : HTML ,CSS
 
 Operating System : Windows/Linux
 
-Web Technologies : Html,Css,Javascript
+Web Technologies : Html,Css
 
 #Features 
 
